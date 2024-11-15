@@ -1,0 +1,176 @@
+.c-container {
+  justify-content: space-between;
+}
+
+.c-container > div {
+  flex: 1;
+}
+
+.c-right {
+  width: 100%;
+}
+
+.c-left {
+  gap: 0.5rem;
+}
+
+.contactModes {
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.contactModes .row {
+  gap: 1.5rem;
+}
+
+.left-category-text {
+  /* width: 315px; */
+  width: 470px;
+}
+
+.mode-category {
+  width: 315px;
+  /* height: 354px; */
+  height: 414px;
+  padding: 1rem;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 18px;
+  gap: 1rem;
+  transition: all 300ms ease-in;
+  background: #ffffff;
+}
+
+.mode-category .button {
+  width: 100%;
+  background: var(--lightBlue);
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.mode-category > :nth-child(1) {
+  /* width: 100%;
+  gap: 1.6rem; */
+}
+
+.mode-category .detail-category .primaryText {
+  font-size: 1.7rem;
+  font-weight: 600;
+}
+
+
+
+
+.detail-category > * {
+  text-align: center;
+  align-self: center;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+.category-icon-style{
+  padding: 0.7rem;
+}
+.category-icon-padding{
+  padding-top: 2.5rem;
+}
+.category-description{
+  font-size: 1.1rem;
+  padding-top: 1.5rem;
+}
+.mode-category:hover {
+  /* scale: 1.1; */
+  scale: 1.02;
+  box-shadow: var(--shadow);
+}
+
+.mode-category .button:hover {
+  background: var(--blue-gradient);
+  color: white;
+  scale: 0.8;
+}
+
+.category-gradient {
+  background: linear-gradient(300deg, #f2f1ff, #f7dee9);
+}
+
+.pink-text-category{
+  color: #F85E9F;
+ 
+}
+
+.pink-text-category-font{
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+
+@media (max-width: 1024px) {
+  .c-container {
+    flex-direction: column;
+  }
+
+  .c-right {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contactModes {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .mode-category {
+    width: 100%;
+  }
+}
+
+
+
+/* For screens 768px and below */
+@media (max-width: 768px) {
+  .c-wrapper {
+    flex-direction: column; /* Ensure the wrapper itself becomes a column */
+    align-items: center;    /* Center everything inside the wrapper */
+  }
+
+  /* Ensure the heading appears above the content */
+  .left-category-text {
+    width: 100%;
+    text-align: center; /* Center the text for smaller screens */
+    margin-top: 2em;
+    margin-bottom: 0; /* Add some space between heading and cards */
+    order: -1; /* This moves it above the c-container */
+  }
+
+  /* Make sure the cards are displayed full width */
+  .c-container {
+    flex-direction: column; /* Stack the cards vertically */
+    width: 100%; /* Ensure full width for mobile */
+    justify-content: center;
+    align-items: center;
+  }
+
+  .mode-category {
+    width: 90%; /* Make each card take 90% of the screen width */
+    margin-bottom: 2rem; /* Add some space between the cards */
+  }
+
+  /* Responsive Font Sizing */
+  .pink-text-category-font {
+    font-size: 1.3rem;
+  }
+
+  .category-icon-padding {
+    padding-top: 1rem;
+  }
+
+  .category-description {
+    font-size: 1rem;
+    padding-top: 1rem;
+  }
+}

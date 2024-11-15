@@ -1,0 +1,65 @@
+.c-container-companies {
+    justify-content: space-around;
+    gap: 1rem;
+    height: 8em;
+    box-shadow: 0 4px 8px rgba(0, 0, 0,25%); /* Bottom shadow, dark and subtle */
+    overflow: hidden; 
+}
+
+.c-container-companies>img {
+    width: 9rem;
+}
+
+.company-gradient {
+    background: linear-gradient(300deg, #f2f1ff, #f7dee9);
+}
+
+
+/* Tablets and smaller desktops (992px - 1199px) */
+@media (max-width: 1199px) and (min-width: 992px) {
+    .c-container-companies>img {
+        width: 8rem; /* Slightly smaller images for tablets */
+    }
+    .c-container-companies {
+        height: 7em; /* Adjust container height */
+    }
+}
+
+
+/* Tablets (768px - 991px) */
+@media (max-width: 991px) and (min-width: 768px) {
+    .c-container-companies {
+        flex-wrap: wrap; /* Allow images to wrap on smaller screens */
+        height: auto; /* Adjust container height */
+        gap: 0.5rem;
+    }
+    .c-container-companies>img {
+        width: 7rem;
+    }
+}
+
+
+/* Mobile Landscape (576px - 767px) */
+@media (max-width: 767px) and (min-width: 576px) {
+    .c-container-companies {
+        flex-direction: column; /* Stack images vertically */
+        align-items: center; /* Center images */
+    }
+    .c-container-companies>img {
+        width: 6rem; /* Reduce image size */
+    }
+}
+
+
+/* Mobile Portrait (Below 576px) */
+@media (max-width: 575px) {
+    .c-container-companies {
+        flex-direction: column;
+        align-items: center;
+        height: auto;
+        gap: 0.5rem; /* Decrease spacing between images */
+    }
+    .c-container-companies>img {
+        width: 5rem; /* Smaller images for mobile portrait */
+    }
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Low Volatility",
+    "price": "4.8",
+    "detail": "Go for stable returns at low volatility levelsGo for stable returns at low volatility levels",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Asatti Garden ",
+    "price": "8.5",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Citralan Puri",
+    "price": "16.0",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street",
+    "image": "./r3.png"
+  },
+  {
+    "name": "Aliva Priva",
+    "price": "4.8",
+    "detail": "Jakarta Garden Street, Cakung. Pulo Gadung",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Asatti Garden",
+    "price": "8.5",
+    "detail": "Pahlawan Street XVII No.215, Cinangka, Sawangan",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Citralan Puri",
+    "price": "16.0",
+    "detail": "Ruko Puri Indah Residence Block A7, Lingkar Street",
+    "image": "./r3.png"
+  }
+]

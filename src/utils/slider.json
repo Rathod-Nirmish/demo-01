@@ -1,0 +1,38 @@
+[
+  {
+    "name": "Low Volatility",
+    "price": "4.8",
+    "detail": "Go for stable returns at low volatility levels",
+    "image": "./low-valatality.png"
+  },
+  {
+    "name": "Tracker",
+    "price": "8.5",
+    "detail": "Take exposure to important sectors",
+    "image": "./tracker.png"
+  },
+  {
+    "name": "Thematic",
+    "price": "16.0",
+    "detail": "Disruptive ideas & long-term trends",
+    "image": "./thematic.png"
+  },
+  {
+    "name": "Aliva Priva",
+    "price": "4.8",
+    "detail": "Jakarta Garden Street, Cakung. Pulo Gadung",
+    "image": "./r1.png"
+  },
+  {
+    "name": "Tracker",
+    "price": "8.5",
+    "detail": "Take exposure to important sectors",
+    "image": "./r2.png"
+  },
+  {
+    "name": "Citralan Puri",
+    "price": "16.0",
+    "detail": "Disruptive ideas & long-term trends",
+    "image": "./r3.png"
+  }
+]

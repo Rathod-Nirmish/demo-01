@@ -1,0 +1,44 @@
+.container {
+    text-align: center;
+    padding: 100px 252px;
+  }
+  
+  .title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+  
+  .highlight {
+    color: #8c70f8;
+  }
+  
+  .team {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  .member {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .photo {
+    border-radius: 10px;
+    width: 213px;
+    /* height: 150px; */
+    object-fit: cover;
+    margin-bottom: 10px;
+  }
+  
+  .name {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .role {
+    font-size: 16px;
+    color: #777;
+  }
+  

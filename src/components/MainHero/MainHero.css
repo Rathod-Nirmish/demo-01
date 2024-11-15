@@ -1,0 +1,135 @@
+.hero-wrapper {
+    color: #37393F;
+    position: relative;
+    padding-bottom: 2rem;
+    
+}
+
+.hero-container-main {
+    justify-content: space-around;
+    align-items: center;
+    height: 537px;
+}
+
+.pink-yellow-gradient{
+  /* background: linear-gradient(300deg, #FF7EBC, #FFBA65); */
+  background: -webkit-linear-gradient(51deg, #FF7EBC, #FFBA65);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.vertical-triangle-main-hero {
+  /* width: 4rem;
+  height: 4rem; */
+  z-index: -1;
+  right: 94%;
+  top: 65%;
+  position: absolute;
+  /* border-radius: 999px; */
+  /* background: var(--orange-gradient); */
+  height: 130px;
+}
+
+/* left */
+
+.hero-title {
+    position: relative;
+    z-index: 1;
+    margin: 1.5rem 0rem;
+}
+
+.hero-title>h1 {
+    font-weight: 500;
+    font-size: 3.8rem;
+    line-height: 4rem;
+}
+
+.orange-circle {
+    width: 4rem;
+    height: 4rem;
+    z-index: -1;
+    right: 28%;
+    top: -10%;
+    position: absolute;
+    border-radius: 999px;
+    background: var(--orange-gradient);
+}
+
+.search-bar {
+    padding: 0.5rem 1rem;
+    margin: 1.5rem 0rem;
+    justify-content: space-between;
+    background-color: white;
+    width: 100%;
+    border-radius: 5px;
+    border: 3px solid rgba(120, 120, 120, 0.374);
+}
+
+.search-bar>input {
+    border: none;
+    outline: none;
+}
+
+.stats {
+    width: 100%;
+    justify-content: space-between;
+}
+
+/* right */
+.image-container-main {
+    width: 35rem;
+    height: 35rem;
+    /* overflow: hidden;
+    border-radius: 15rem 15rem 0 0;
+    border: 8px solid rgba(255, 255, 255, 0.12); */
+    /* margin-right: 83px; */
+}
+
+.image-container-main>img {
+    /* width: 100%; */
+    /* width: 115%; */
+    width: 136%;
+    height: 90%;
+}
+
+/* mobile screens */
+@media  (max-width: 640px){
+    .hero-container-main{
+      margin-top: 2rem;
+      justify-content: space-around;
+      
+    }
+    .hero-title>h1{
+      font-size: 2.5rem;
+      line-height: 3rem;
+    }
+    .image-container-main{
+      width: 95%;
+      height: 25rem;
+    }
+    .stats{
+      justify-content: center;
+      gap: 1.5rem;
+      font-weight: wrap;
+    }
+    .stat>:nth-child(1){
+      font-size: 1.5rem;
+    }
+    .stat>:nth-child(2)
+    {
+      font-size: 0.8rem;
+    }
+  }
+
+
+  .btn-gap {
+    gap: 3rem;
+}
+
+.btn-margin {
+  margin: 1.5rem 0rem;
+}
+
+.btn-radius {
+  border-radius: 26px;
+}

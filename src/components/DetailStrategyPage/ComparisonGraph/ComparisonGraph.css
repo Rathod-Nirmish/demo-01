@@ -1,0 +1,111 @@
+/* src/components/ComparisonGraph.css */
+/* .comparison-graph {
+    margin: 20px;
+    text-align: center;
+  }
+  
+  .comparison-graph h2 {
+    margin-bottom: 20px;
+  } */
+
+/* src/components/ComparisonGraph.css */
+
+.comparison-main-padding {
+  padding-left: 61px;
+  padding-right: 109px;
+}
+.comparison-main-outer-container {
+  /* background: white; */
+  border: 1px solid #e5e5e5;
+  border-radius: 43px;
+  /* box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  background-color: #ffffff;
+  box-shadow: -10px 0 10px -5px rgba(224, 223, 223, 0.5),
+    /* left shadow */ 10px 0 10px -5px rgba(230, 230, 230, 0.5),
+    /* right shadow */ 0 27px 10px -5px rgb(123 123 123 / 12%); /* bottom shadow */
+  /* padding: 20px; */
+}
+
+.comparison-first-row-style {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+.dots {
+  display: flex;
+  gap: 8px; /* Adjust gap as needed */
+}
+
+.dot {
+  width: 26px; /* Adjust size as needed */
+  height: 26px; /* Adjust size as needed */
+  border-radius: 50%;
+}
+
+.dot.green {
+  background-color: #5CD29A; /* Green color */
+}
+
+.dot.yellow {
+  background-color: #FFB039; /* Yellow color */
+}
+
+.dot.red {
+  background-color: #FF6868; /* Red color */
+}
+
+.horizontal-line-comparison {
+  margin-bottom: 19px;
+  border: 1px solid #e5e5e5;
+}
+
+.comparison-h2-style{
+  margin: 0px;
+  font-weight: 500;
+  font-size: 1.3rem;
+}
+
+.comparison-graph-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  height: 78vh;
+}
+
+.comparison-graph-container-right-side {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: space-between; */
+  /* padding: 20px; */
+  /* background-color: #eef4ff; */
+  border-radius: 8px;
+  height: 387px;
+  margin-left: 20px;
+}
+
+.comparison-graph {
+  flex: 1;
+  /* height: 102vh; */
+}
+
+.comparison-image {
+  /* flex: 1; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.comparison-image img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+.best-strategies-img-right-comparison-graph{
+  width: 283px;
+}

@@ -1,0 +1,52 @@
+
+.WeBelieveBuying-container-main{
+  padding: 1rem 1rem 5rem 1rem;
+}
+
+.WeBelieveBuying-container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  padding: 80px 90px;
+}
+
+.WeBelieveBuying-left {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-left: 50px;
+  flex: 4
+}
+
+.WeBelieveBuying-left .WeBelieveBuying-highlight {
+  /* color: #e91e63;  */
+  /* Adjust the color as needed */
+  background: linear-gradient(90deg, #FF82C3, #A98DFF);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.WeBelieveBuying-right {
+  /* text-align: right; */
+  /* margin-left: 5px; */
+  padding-left: 3px;
+  flex: 6;
+
+}
+
+.WeBelieveBuying-right h2 {
+  color: #2196f3; /* Adjust the color as needed */
+  font-size: 1.3em;
+  font-weight: 500;
+}
+
+.WeBelieveBuying-right p {
+  color: #757575; /* Adjust the color as needed */
+}
+
+
+.MissionVisionValuesCard-card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}

@@ -1,0 +1,146 @@
+/* src/TradeWorkCarousel.css */
+
+
+
+.trade-cloud-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  padding-left: 83px;
+  padding-right: 83px;
+}
+
+.trade-cloud-heading {
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* .button {
+  background: none;
+} */
+
+.learn-more-button {
+  display: flex;
+  align-items: center;
+  padding: 10px 20px;
+  background:none;
+  border: none;
+ 
+  /* background-color: #e0d4f7;
+  color: #6f4eff;
+  border: 1px solid #6f4eff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: background-color 0.3s; */
+}
+
+.learn-more-img{
+  width: 138px;
+  height: auto;
+}
+
+.learn-more-button:hover {
+  /* background-color: #d1c2f3; */
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+
+
+.carousel-container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.slick-slide {
+  padding: 0 10px; /* Adjust the padding to add space between the slides */
+  box-sizing: border-box;
+}
+
+.card {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  width: 100%; /* Ensure card takes full width within its container */
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-image {
+  position: relative;
+  flex: 1 0 auto; /* Allow the image to grow and fill the space */
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ensure the image covers the container */
+  display: block;
+}
+
+.play-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: rgba(255, 255, 255, 0);
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+
+.card-content {
+  padding: 16px;
+  background: #fff;
+  flex: 0 1 auto; /* Ensure the content stays at the bottom */
+  /* height: 150px; */
+  height: 181px;
+  position: relative;
+}
+
+
+.card-content h2 {
+  margin-top: 0;
+  margin-bottom: 8px;
+  font-size: 1.25em;
+}
+
+.card-content p {
+  margin: 0 0 16px;
+  color: #555;
+  flex-grow: 1;
+}
+
+.view-more {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-decoration: none;
+  color: #0073e6;
+  font-weight: bold;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding: 16px;
+}
+
+.view-more-padding{
+  text-decoration-line: underline;
+  padding-right: 13px;
+}
+
+.trade-work-arrow-dimension{
+  font-size: 0.8rem;
+}
+
+.trade-work-description{
+  font-size: 0.8rem;
+}

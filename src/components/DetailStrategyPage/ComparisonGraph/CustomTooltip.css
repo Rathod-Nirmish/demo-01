@@ -1,0 +1,17 @@
+/* src/components/CustomTooltip.css */
+.custom-tooltip {
+    background: white;
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .custom-tooltip .label {
+    font-weight: bold;
+  }
+  
+  .custom-tooltip .intro {
+    color: #8884d8;
+  }
+  

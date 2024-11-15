@@ -1,0 +1,67 @@
+/* src/DownloadComponent.css */
+.download-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #263238;
+  padding: 40px;
+  /* border-radius: 10px; */
+  color: white;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.text-section h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.text-section .highlight {
+  /* color: #937DC2; */
+  /* background: linear-gradient(to right, #937dc2, #ab7ac1, #f2968f); */
+  background: linear-gradient(to right, #6683e0, #9d66d1, #f663ae);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.text-section p {
+  font-size: 1em;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.download-links {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.qr-code {
+  width: 100px;
+  height: 100px;
+}
+
+.download-text {
+  font-size: 0.9em;
+}
+
+.icons {
+  display: flex;
+  gap: 10px;
+}
+
+.download-icon {
+  width: 40px;
+  height: 40px;
+}
+
+.image-section {
+  max-width: 50%;
+}
+
+.phone-image {
+  max-width: 100%;
+  border-radius: 10px;
+}

@@ -1,0 +1,187 @@
+.c-container {
+  justify-content: space-between;
+}
+
+.c-container > div {
+  flex: 1;
+}
+
+.c-right {
+  width: 100%;
+}
+
+.c-left {
+  gap: 0.5rem;
+}
+
+.contactModes-tips {
+  gap: 0.5rem;
+  margin-top: 2rem;
+}
+
+.contactModes-tips .row {
+  gap: 1.5rem;
+}
+
+.mode-tips {
+  width: 31rem;
+  padding: 1.5rem;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 5px;
+  gap: 1rem;
+  transition: all 300ms ease-in;
+}
+
+.mode-tips .button {
+  width: 100%;
+  background: var(--lightBlue);
+  color: var(--blue);
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.mode-tips > :nth-child(1) {
+  width: 100%;
+  gap: 1.6rem;
+}
+
+.mode-tips .detail .black-color {
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.mode-tips:hover {
+  /* scale: 1.02;
+  box-shadow: var(--shadow); */
+}
+
+.mode-tips .button:hover {
+  background: var(--blue-gradient);
+  color: white;
+  scale: 0.8;
+}
+
+.tips-gradient {
+  background: linear-gradient(300deg, #f2f1ff, #f7dee9);
+}
+
+.tips-card-background-color {
+  background-color: #ffffff;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+.tips-padding {
+  padding-left: 108px;
+}
+.tips-right-padding {
+  padding-right: 90px;
+}
+
+.image-container-background{
+  width: 30rem;
+  height: 35rem;
+  margin-right: 83px;
+}
+.image-container-background > img{
+  /* width: 158%; */
+  width: 39.6em;
+  max-width: 39.6em !important;
+  height: 101%;
+  /* height: 97%; */
+}
+
+.video-overlay {
+  /* z-index: 40; */
+  /* position: absolute;
+  top: 82.93%;
+  right: 9.8%;
+  width: 20.9%;
+  height: 9.8%;
+  object-fit: cover;
+  border-radius: 41px; */
+  /*  */
+  /* z-index: 40;
+  position: absolute;
+  top: 77.79%;
+  right: 9.8%;
+  width: 20.8%;
+  height: 9%;
+  object-fit: cover;
+  border-radius: 41px; */
+}
+
+.selected-tip {
+  /* border: 2px solid var(--blue); */
+  /* box-shadow: 0px 0px 15px rgba(0, 0, 255, 0.2); */
+  /* transform: scale(1.03); */
+  scale: 1.06;
+  /* box-shadow: var(--shadow); */
+}
+
+.tips-right-padding {
+  padding-right: 20px; /* Adjust as needed */
+}
+
+.image-container-background {
+  position: relative;
+  width: 100%; /* Adjust width as necessary */
+  max-width: 403px; /* Adjust the max width as needed */
+  /* background-image: url('./phone-background-02.png'); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /* height: 100%;  */
+  /* Adjust height as necessary */
+}
+
+.video-overlay {
+  position: absolute;
+  top: 0.8em;
+  left: 15.2em;
+  width: 89%;
+  height: 96%;
+  object-fit: fill; /* Ensures the video covers the entire container */
+  z-index: 1;
+  border-radius: 41px;
+
+}
+
+.tips-background-style {
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.selected-tip .mode-tips {
+  /* background-color: #e0f7ff; */
+}
+
+.selected-tip .black-color {
+  /* color: var(--blue); */
+}
+
+@media (max-width: 1024px) {
+  .c-container {
+    flex-direction: column;
+  }
+
+  .c-right {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1024px) {
+  .contactModes-tips {
+    width: 100%;
+  }
+
+  .row {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .mode-tips {
+    width: 100%;
+  }
+}

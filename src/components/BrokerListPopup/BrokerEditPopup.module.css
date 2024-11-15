@@ -1,0 +1,159 @@
+.formOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.formContent {
+  /* background-color: white; */
+  /* background: linear-gradient(135deg, #b892ff, #8ec0ff); */
+  background: linear-gradient(85deg, #FCDEEC, #DFDCF3);
+
+
+  border-radius: 12px;
+  padding: 20px;
+  width: 400px;
+  max-width: 90%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+/* label {
+    display: block;
+    margin-bottom: 8px;
+  } */
+
+/* label {
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: 8px;
+  } */
+.checkboxStyle {
+  color: black;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 0.9em;
+  display: flex;
+  align-items: center;
+  /*margin-bottom: 8px; */
+}
+
+/* input, select {
+    width: 100%;
+    padding: 8px;
+    margin-top: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  } */
+
+.editBrokerHeader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inputField {
+  width: 100%;
+  padding: 8px;
+  margin-top: 16px;
+  border-radius: 4px;
+  border: 1px solid #6b6868;
+  color: #263238;
+  background-color: transparent;
+}
+
+.inputField::placeholder {
+  color: #263238;
+  /* font-style: italic; */
+}
+
+.inputField:focus {
+  border: 2px solid #6b6868; /* Change the border color */
+  background-color: #FCDEEC; /* Change the background color */
+  outline: none; /* Removes default browser outline */
+}
+
+.selectInputField {
+  width: 100%;
+  padding: 8px;
+  margin-top: 16px;
+  border-radius: 4px;
+  /* border: 1px solid #ccc; */
+  background-color: transparent;
+  color: #263238;
+  border: 1px solid #6b6868; /* Change the border color */
+
+
+}
+
+.selectInputField:focus {
+  border: 2px solid #6b6868; /* Change the border color */
+  background-color: #FCDEEC; /* Change the background color */
+  outline: none; /* Removes default browser outline */
+}
+
+.submitButton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* color: #263238; */
+}
+
+.submitButtonBtn {
+  background-color: #263238;
+  padding: 1.4em 7em;
+  border-radius: 29px;
+}
+
+button {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.closeButton {
+  margin-top: 20px;
+  text-align: center;
+  color: #263238;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+
+input[type="checkbox"] {
+  width: 7%;
+  margin: 0;
+  /* margin-right: 8px;  */
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.editIcon {
+  position: absolute;
+  right: 3px;
+  top: 67%;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+
+.editIcon {
+  color: #666;
+}
+
+.profileDetail {
+  /* margin-bottom: 15px; */
+  position: relative;
+}

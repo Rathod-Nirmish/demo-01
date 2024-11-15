@@ -1,0 +1,216 @@
+.equity-container {
+  display: flex;
+  /* padding: 50px; */
+  padding-top: 140px;
+  padding-left: 167px;
+  padding-right: 68px;
+  padding-bottom: 131px;
+  text-align: justify;
+}
+
+.equity-content {
+  flex: 1;
+  padding-right: 50px;
+}
+
+.AboutEquity-title-style {
+  margin-bottom: 15px;
+}
+
+.AboutEquity-description-text-color {
+  color: #797979;
+}
+
+.this-smallcase-invests {
+  padding: 30px;
+}
+
+.common-equity-misconceptions {
+  margin-top: 128px;
+}
+
+.Bitcoin-Is-Just-A-Passing {
+  margin-bottom: 20px;
+}
+
+.the-unbanked-population {
+  padding: 30px;
+}
+
+.the-unbanked-population-li-style {
+  margin-bottom: 10px;
+}
+
+.equity-sidebar {
+  /* flex: 1; */
+  background-color: #263238;
+  padding: 58px;
+  border-radius: 16px;
+  color: white;
+  /* width: 595px; */
+  width: 40em;
+  max-width: 100%;
+  /* height: 472px; */
+}
+
+.horizontal-line-one-equity-sidebar {
+  margin-bottom: 24px;
+  border: 1px solid #5b6468;
+}
+.horizontal-line-two-equity-sidebar {
+  margin-bottom: 7px;
+  border: 1px solid #5b6468;
+}
+
+.amount {
+  font-size: 36px;
+  font-weight: 500;
+  margin-bottom: 27px;
+  color: #3eba59;
+}
+
+.minimum-investment-amount-text {
+  font-weight: 200;
+  padding-bottom: 6px;
+  color: #ffffff;
+  font-size: 1.1em;
+}
+
+.access {
+  margin-bottom: 21px;
+}
+
+.access a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 42px;
+}
+
+.investment-now-input-textbox-div-style {
+}
+
+.investment-now-input-textbox-style {
+  padding: 1em;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  width: 17em;
+  color: #263238;
+}
+
+.investment-now-input-textbox-style:focus {
+  outline: none; /* Remove the border when clicked or focused */
+}
+
+.subscribe-now {
+  padding: 26px 44px;
+  border: none;
+  border-radius: 53px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.square-of-strategy {
+  padding: 26px 44px;
+  border: none;
+  border-radius: 53px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+  width: 13em;
+}
+
+
+
+.invest-now {
+  padding: 25px 48px;
+  border: none;
+  border-radius: 53px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+}
+.add-to-watchlist {
+  padding: 26px 33px;
+  border: none;
+  border-radius: 53px;
+  cursor: pointer;
+  /* font-weight: bold; */
+  transition: background-color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.See-All-Plans-and-Benefits {
+  /* background: linear-gradient(300deg, #FF7EBC, #FFBA65); */
+  background: -webkit-linear-gradient(51deg, #ff52bf 0%, #07a8ff 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-weight: 600;
+}
+
+.Get-Access-For {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+.subscribe-now {
+  /* background-color: #007bff; */
+  background: linear-gradient(90deg, #ff52bf 0%, #07a8ff 100%);
+  color: white;
+}
+
+
+.to-continue-subscription {
+  /* color: #937DC2; */
+  /* background: linear-gradient(to right, #937dc2, #ab7ac1, #f2968f); */
+  font-size: 1.2em;
+  padding: 0.5em 0em 0.1em 0em;
+  font-weight: 600;
+  background: linear-gradient(to right, #FF82BE, #448FFF, #31E5FF);
+  -webkit-background-clip: text;
+  color: transparent;
+  cursor: pointer;
+  
+  
+}
+
+.square-of-strategy {
+  /* background-color: #007bff; */
+  background: #ffffff;
+  color: #263238;
+}
+.invest-now {
+  /* background-color: #007bff; */
+  background: linear-gradient(90deg, #ff52bf 0%, #07a8ff 100%);
+  color: white;
+}
+
+.add-to-watchlist {
+  background-color: #ffffff;
+  color: #5b6468;
+}
+
+.subscribe-now:hover {
+  /* background-color: #0056b3; */
+  background: linear-gradient(90deg, #07a8ff 0%, #ff52bf 100%);
+}
+.invest-now:hover {
+  /* background-color: #0056b3; */
+  background: linear-gradient(90deg, #07a8ff 0%, #ff52bf 100%);
+}
+
+.add-to-watchlist:hover {
+  background-color: #ffffffe2;
+}
+
+.equity-misconceptions {
+  margin-top: 50px;
+}

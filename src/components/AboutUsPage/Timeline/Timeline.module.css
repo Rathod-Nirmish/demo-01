@@ -1,0 +1,44 @@
+/* Timeline.module.css */
+
+.container {
+  margin: 20px 0;
+  font-family: Arial, sans-serif;
+  padding: 4em 5em;
+}
+
+.title {
+  font-size: 2rem;
+  font-weight: bold;
+  color: #333;
+}
+
+.highlight {
+  color: #ff4e50; /* Pink highlight color */
+  background: linear-gradient(90deg, #8b74ff 0%, #ff6ac1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #000;
+  margin-top: 10px;
+}
+
+.description {
+  font-size: 1rem;
+  color: #666;
+  margin-top: 5px;
+  line-height: 1.5;
+}
+
+.timelineImage {
+  margin-top: 30px;
+  width: 100%;
+  max-width: 1211px; /* Adjust to your needs */
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

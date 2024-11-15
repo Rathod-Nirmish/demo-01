@@ -1,0 +1,122 @@
+.v-container .image-container {
+  /* border: 8px solid rgb(232 232 232 / 93%); */
+}
+.v-container > div {
+  flex: 1;
+}
+.v-right {
+  gap: 0.5rem;
+}
+.accordion {
+  margin-top: 2rem;
+  border: none;
+}
+.accordionItem {
+  background: white;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 8px;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+
+.accordionItem.expanded {
+  box-shadow: var(--shadow);
+  border-radius: 6px;
+}
+.accordionButton {
+  background: white;
+  padding: 1rem;
+  width: 100%;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.icon {
+  padding: 10px;
+  background: #eeeeff;
+  border-radius: 5px;
+}
+.icon svg {
+  fill: var(--blue);
+}
+
+.accordionButton .primaryText {
+  font-size: 1.1rem;
+}
+
+.stats-value {
+  width: 70%;
+  justify-content: space-between;
+}
+.stats-value-box {
+  width: 70%;
+  justify-content:left;
+  gap: 21px;
+  
+}
+
+.stat-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.horizontal-center-text {
+  text-align: center;
+}
+
+.round-border {
+  padding: 0.6rem 1.4rem;
+  border: 3px solid rgba(120, 120, 120, 0.074);
+  /* border: 3px solid rgba(120, 120, 120, 0.374); */
+  border-radius: 20px;
+}
+.round-border-value {
+  padding: 1.6rem 1.4rem;
+  border: 3px solid rgba(120, 120, 120, 0.074);
+  border-radius: 20px;
+}
+.round-border-value-right-box {
+  padding: 1.6rem 2.4rem;
+  border: 3px solid rgba(120, 120, 120, 0.074);
+  border-radius: 20px;
+}
+
+.value-box-color{
+  color: orangered;
+}
+
+
+.small-gradient-ball {
+  /* width: 4rem;
+  height: 4rem; */
+  /* z-index: 10; */
+  /*  */
+  /* right: 15px;
+  top: 1177px;
+  position: absolute;
+  width: 120px; */
+  /*  */
+  /*  */
+  right: 248px;
+  top: 2745px;
+  position: absolute;
+  width: 96px;
+  /*  */
+  /* border-radius: 999px; */
+  /* background: var(--orange-gradient); */
+}
+
+
+@media (max-width: 1024px) {
+  .v-container {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 768px) {
+  .accordionButton .primaryText {
+    font-size: 0.8rem;
+  }
+}

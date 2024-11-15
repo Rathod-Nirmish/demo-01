@@ -1,0 +1,150 @@
+/* src/InvestmentInsights.css */
+
+.investment-component-padding{
+  padding: 74px;
+}
+
+.investment-header{
+  padding-left: 20px;
+  padding-top: 20px;
+}
+.investment-insights {
+    padding: 20px;
+    display: flex;
+    /* justify-content: space-between; */
+  }
+
+
+  
+
+  
+  .insights-list {
+    display: flex;
+    flex-direction: column;
+    width: 950px;
+  }
+  
+  .insight-item {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+  
+  .insight-item:hover {
+    background-color: #eef4ff;
+  }
+  
+  .insight-icon-column {
+    flex: 0 0 50px; /* Ensure the column takes only the width of the icon */
+    display: flex;
+    justify-content: center;
+  }
+  
+  .insight-icon {
+    width: 50px;
+    height: 50px;
+    margin-left: 15px;
+  }
+  
+  .insight-details {
+    /* flex-grow: 1; */
+    margin-left: 15px;
+    width: 18em;
+  }
+  
+  .insight-details h3 {
+    margin: 0 0 5px 0;
+    font-size: 1.1em;
+  }
+  
+  .insight-details p {
+    margin: 0;
+    color: #666;
+  }
+  
+  .insight-label {
+    border-radius: 12px;
+    padding: 5px 10px;
+    font-size: 0.8em;
+    color: #fff;
+    margin-right: 15px;
+  }
+  
+  .insight-label.grey {
+    background-color: #ccc;
+  }
+  
+  .insight-label.blue {
+    background-color: #00f;
+  }
+  
+  .insight-label.orange {
+    background-color: #ffa500;
+  }
+  
+  .insight-label.green {
+    background-color: #0f0;
+  }
+  
+  .insight-button {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 26px;
+    padding: 8px 19px;
+    cursor: pointer;
+    color: rgb(0,0,255);
+  }
+  
+  .insight-button:hover {
+    background-color: #f0f0f0;
+  }
+  
+  .insight-ad {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    /* padding: 20px; */
+    /* background-color: #eef4ff; */
+    border-radius: 8px;
+    height: 317px;
+    /* height: 180px; */
+    margin-left: 20px;
+  }
+  
+  .insight-ad h3 {
+    margin: 0;
+  }
+  
+  /* .insight-ad img {
+    
+  } */
+
+  .best-strategies-img-right{
+    width: 359px;
+    height: auto;
+  }
+  
+.plus-object-img-right{
+  width: 200px;
+  height: 166px;
+}
+
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full viewport height */
+}
+
+.insight-details-description-p{
+  font-size: small;
+}
+
+.insight-details-next-description-p{
+  font-size: small;
+
+}

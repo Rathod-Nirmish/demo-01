@@ -1,0 +1,66 @@
+/* .arrow {
+    display: inline-block;
+    margin-left: 10px;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-bottom: 10px solid black;
+  }
+  
+  .arrow-up {
+    transform: rotate(180deg);
+  } */
+
+/* *********************************************************************************************** */
+  /* .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f7f7f7; 
+  }
+  
+  .arrow {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    margin-left: 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+  }
+  
+  .arrow-down {
+    border-bottom: 5px solid black;
+  }
+  
+  .arrow-up {
+    transform: rotate(180deg);
+    border-top: 5px solid black;
+  } */
+
+
+
+  .container-PeopleAlsoAsk {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh; /* Full height of the viewport */
+    margin: 0 auto;
+    /* background-color: #ADB3C7; */
+    background: linear-gradient(135deg, #fce4ec, #e1f5fe);
+  }
+
+  .people-also-ask-title-style{
+    font-size: 2.1rem;
+    font-weight: 600;
+  }
+
+  .PeopleAlsoAsk-equity-word{
+    color: #9EA6FF;
+  }
+  /* 9EA6FF */
+  

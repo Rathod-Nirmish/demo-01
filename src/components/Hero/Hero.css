@@ -1,0 +1,236 @@
+.hero-wrapper {
+  color: #37393F;
+  position: relative;
+  padding-bottom: 2rem;
+}
+
+.hero-container {
+  justify-content: space-evenly;
+  align-items: flex-end;
+}
+
+/* left */
+
+.hero-title {
+  position: relative;
+  z-index: 1;
+  margin: 1.5rem 0rem;
+}
+
+.hero-title > h1 {
+  font-weight: 600;
+  font-size: 3.8rem;
+  line-height: 4rem;
+}
+
+.orange-circle {
+  width: 4rem;
+  height: 4rem;
+  z-index: -1;
+  right: 28%;
+  top: -10%;
+  position: absolute;
+  border-radius: 999px;
+  background: var(--orange-gradient);
+}
+.vertical-triangle {
+  /* width: 4rem;
+  height: 4rem; */
+  z-index: -1;
+  right: 93%;
+  top: 75%;
+  position: absolute;
+  /* border-radius: 999px; */
+  /* background: var(--orange-gradient); */
+  height: 130px;
+}
+
+@keyframes circular-motion {
+  0% {
+    transform: rotate(0deg) translateX(50px) rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg) translateX(50px) rotate(-360deg);
+  }
+}
+.tick-mark-Icon {
+  /* width: 4rem;
+  height: 4rem; */
+  z-index: 10;
+  left: -9px;
+  top: -99px;
+  position: absolute;
+  width: 106px;
+  max-width: 7em !important;
+  /* animation: circular-motion 4s linear infinite; */
+  /* border-radius: 999px; */
+  /* background: var(--orange-gradient); */
+}
+.graph-image {
+  /* width: 4rem;
+  height: 4rem; */
+  z-index: 10;
+  left: -185px;
+  top: 96px;
+  position: absolute;
+  width: 211px !important;
+  max-width: 14em !important;
+  /* border-radius: 999px; */
+  /* background: var(--orange-gradient); */
+}
+
+/* .vertical-triangle{
+  z-index: 10;
+} */
+
+
+.search-bar {
+  padding: 0.5rem 1rem;
+  margin: 1.5rem 0rem;
+  justify-content: space-between;
+  background-color: white;
+  width: 100%;
+  border-radius: 5px;
+  border: 3px solid rgba(120, 120, 120, 0.374);
+}
+
+.search-bar > input {
+  border: none;
+  outline: none;
+}
+
+.stats {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.image-container {
+  width: 30rem;
+  height: 35rem;
+  margin-right: 83px;
+
+  /* width: 50vw;  */
+  /* Scales with the screen width */
+  /* height: 60vh; */
+   /* Scales with the screen height */
+  /* margin-right: 5%; */
+   /* More flexible margin */
+}
+
+.image-container > img {
+  width: 34em !important;
+  max-width: 34em !important;
+  height: 100%;
+}
+.image-container-pink-blue-img-right {
+  width: 30rem;
+  height: 35rem;
+  margin-right: 83px;
+}
+
+.image-container-pink-blue-img-right > img {
+  width: 39em;
+  max-width: 39em !important;
+  height: 100%;
+}
+.image-container-pink-blue-img-left {
+  width: 30rem;
+  height: 35rem;
+  margin-right: 83px;
+}
+
+.image-container-pink-blue-img-left > img {
+  width: 40em;
+  max-width: 40em !important;
+  height: 100%;
+}
+
+.start-investing {
+  background: #EEEEEE;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  color: #222831;
+}
+
+.start-investing img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.left-images {
+  position: relative;
+  left: -596px;
+  top: 139px;
+  transform: translateY(-50%);
+}
+
+.left-image {
+  position: relative;
+  left: -596px;
+  top: 139px;
+  transform: translateY(-50%);
+  width: 100px; /* Adjust size as needed */
+  /* margin-left: 745px; 
+  margin-top: 159px; */
+}
+
+.right-images {
+  position: relative;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.right-image {
+  width: 211.23px; /* Adjust size as needed */
+  /* margin-right: 112px; 
+  margin-top: 308px; */
+}
+
+.sky-blue-text{
+  color: #0BC0EB;
+}
+
+
+
+/* mobile screens */
+@media (max-width: 640px) {
+  .hero-container {
+    margin-top: 2rem;
+    justify-content: space-around;
+  }
+  .hero-title > h1 {
+    font-size: 2.5rem;
+    line-height: 3rem;
+  }
+  .image-container {
+    width: 95%;
+    height: 25rem;
+  }
+  .stats {
+    justify-content: center;
+    gap: 1.5rem;
+    font-weight: wrap;
+  }
+  .stat > :nth-child(1) {
+    font-size: 1.5rem;
+  }
+  .stat > :nth-child(2) {
+    font-size: 0.8rem;
+  }
+}
+
+.btn-gap {
+  gap: 3rem;
+}
+
+.btn-margin {
+  margin: 1.5rem 0rem;
+}
+
+.btn-radius {
+  border-radius: 26px;
+}

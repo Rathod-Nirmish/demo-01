@@ -1,0 +1,53 @@
+.hero-review-card {
+    width: 226px; /* Adjusted width */
+    padding: 1rem;
+    border-radius: 18px;
+    transition: all 300ms ease-in;
+    background: #ffffff;
+    text-align: left; /* Left align the text */
+    box-shadow: var(--shadow);
+}
+
+.hero-review-card-alignment {
+    z-index: 10;
+    left: 47%;
+    top: 123px;
+    position: absolute;
+}
+
+.review-header {
+    display: flex;
+    /* align-items: flex-start;  */
+    padding: 2px;
+}
+
+.reviewer-image {
+    width: 50px; /* Adjust image size */
+    height: 50px; /* Adjust image size */
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 1rem;
+}
+
+.stars {
+    display: flex;
+    align-items: center; /* Center align stars vertically */
+}
+
+.star {
+    color: orange;
+    font-size: 1.2rem;
+}
+
+.hero-review-text-size {
+    font-size: 0.9rem;
+    text-align: left; /* Left align the text */
+    margin-top: 0.5rem; /* Add margin for better spacing */
+    color: #5A7184;
+    font-weight: 600;
+
+    display: inline-block; /* Required for transform to work on inline elements */
+    transform: scaleY(1.2); /* Adjust this value to stretch the text vertically */
+    /* transform-origin: baseline;  */
+    /* Ensure the stretching starts from the baseline */
+}

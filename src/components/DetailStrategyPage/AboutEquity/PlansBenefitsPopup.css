@@ -1,0 +1,235 @@
+.PlansBenefitsPopup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+.PlansBenefitsPopup-content {
+  background: white;
+  /* padding: 20px; */
+  border-radius: 40px;
+  position: relative;
+  /* max-width: 500px; */
+  /* width: 700px; */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  /* text-align: center; */
+  border: 1px solid #e5e5e5;
+}
+
+.PlansBenefitsPopup-header .close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background: none;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+}
+
+.PlansBenefitsPopup-body {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.PlansBenefitsPopup-plan {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 23px 11px 40px;
+  /* background: peachpuff; */
+  /* border-radius: 20px; */
+  font-size: 16px;
+  width: 100%;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.horizontal-line-PlansBenefitsPopup {
+  margin-bottom: 19px;
+  border: 1px solid #e5e5e5;
+}
+
+.plan-title {
+  /* flex-grow: 1; */
+  color: #c0945e;
+  background: peachpuff;
+  padding: 7px 19px;
+  border-radius: 20px;
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.status-dots {
+  display: flex;
+  align-items: center;
+}
+
+.month-year-price {
+  color: #212326;
+  padding: 16px 0px;
+}
+
+.circle-container {
+  display: flex;
+  align-items: center;
+  /* background-color:#F4F4F4; */
+  margin-bottom: 7px;
+  /* padding: 4px; */
+  max-width: max-content;
+  border-radius: 39px;
+  cursor: pointer;
+}
+
+.circle-container-content-wrapper {
+  display: flex;
+  align-items: center;
+  background-color: #f4f4f4;
+  padding: 5px 8px;
+  border-radius: 39px; /* Optional: Add rounded corners */
+  /* width: 217px; */
+  width: 15em;
+}
+
+.circle {
+  width: 26px;
+  height: 26px;
+  /* background-color: blue; */
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 16px;
+  color: black;
+  padding-right: 4px;
+}
+
+.month-year-price-dot {
+  width: 50px;
+  height: 50px;
+  background-color: blue;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.month-year-price-dot-green {
+  background-color: #5cd29a; /* Green color */
+}
+
+.month-year-price-dot-blue {
+  background-color: #7782ff; /* Yellow color */
+}
+
+.month-year-price-dot.red {
+  background-color: #ff6868; /* Red color */
+}
+
+.plandot {
+  height: 19px;
+  width: 19px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-left: 7px;
+}
+
+.plandot.green {
+  background-color: #5cd29a;
+}
+
+.plandot.yellow {
+  background-color: #ffb039;
+}
+
+.plandot.red {
+  background-color: #ff6868;
+}
+
+.image-text-container {
+  display: flex;
+  /* align-items: center; */
+  /* margin-top: 20px; */
+  padding: 20px;
+}
+
+.popup-image {
+  width: 408px; /* Adjust the width as needed */
+  height: 413px;
+  /* margin-right: 20px; */
+  padding: 16px 22px;
+}
+
+.popup-text {
+  font-size: 16px;
+  padding: 0px 41px;
+}
+
+.get-access-to-blue-text {
+  color: #555fe7;
+  margin-bottom: 3px;
+  padding-right: 44px;
+}
+.benefit-of-subscribing-gray-text {
+  color: #797979;
+}
+
+.plans-benefit-right-side-third-part-container {
+  padding: 15px 0px;
+  font-weight: 500;
+}
+
+.plans-benefit-right-side-third-part {
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  color: #797979;
+}
+
+.plans-benefit-right-side-third-part .plans-benefit-right-side-third-part-icon {
+  margin-right: 17px;
+}
+
+.plans-benefit-right-side-third-part-Subscribe-now {
+  display: flex;
+  justify-content: flex-end;
+  padding: 10px;
+}
+.plans-benefit-right-side-third-part-Subscribe-now-btn {
+  padding: 16px 32px;
+  border-radius: 30px;
+  border: none;
+  font-size: 1.1rem;
+  font-weight: 500;
+  background:#F3F3F3;
+  color: #212326;
+}
+
+.DiviGrowth-capital {
+  font-weight: 600;
+}
+
+.closeBtnStyle {
+  width: 2em;
+  cursor: pointer;
+}
+
+.circle-container.selected {
+  scale: 1.025;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  border: 2px solid rgb(83 83 86 / 20%);
+  /* Example: Highlight selected item */
+}
+
+/* .circle-container-content-wrapper.selected{
+  border: 2px solid red;
+} */

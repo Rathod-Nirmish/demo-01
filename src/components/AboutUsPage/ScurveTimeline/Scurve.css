@@ -1,0 +1,12 @@
+.sine-curve-container {
+    width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .sine-curve {
+    fill: none;
+    stroke: #000;
+    stroke-width: 0.5;
+  }
+  

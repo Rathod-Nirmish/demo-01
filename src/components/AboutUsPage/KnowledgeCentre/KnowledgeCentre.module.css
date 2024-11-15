@@ -1,0 +1,80 @@
+/* src/KnowledgeCentre.module.css */
+.container {
+  display: flex;
+  justify-content: space-evenly;
+  /* align-items: center; */
+  padding: 20px;
+  /* background: #f9f9f9;  */
+}
+
+.chatImage{
+  width: 64px;
+  margin-left: 25px;
+}
+
+.textSection {
+  text-align: left;
+}
+
+.title {
+  font-size: 62px;
+  font-weight: bold;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #666;
+}
+.contactSection {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Changed to flex-start */
+  gap: 16px; /* Added gap between items */
+}
+
+.contactItem {
+  display: flex;
+  align-items: center;
+  padding: 16px 24px; /* Added padding */
+  border-radius: 51px; 
+  width: 334px; /* Added width to make items wrap */
+  border: 1px solid #e5e5e5;
+}
+
+.phoneGradient {
+  background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%);
+}
+
+.contactItem:first-child {
+  /* background: linear-gradient(135deg, #fceabb 0%, #f8b500 100%); */
+}
+
+.icon {
+  font-size: 24px; /* Reduced font size */
+  margin-right: 16px; /* Increased margin */
+  width: 48px; /* Added width */
+  height: 48px; /* Added height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%; /* Made icons round */
+  /* background: white; Added white background to icons */
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);  */
+  /* background: linear-gradient(135deg, #a1c4fd 0%, #c2e9fb 100%); */
+
+}
+
+.callImage{
+  width: 62px;
+}
+
+.label {
+  font-weight: bold;
+  font-size: 16px; /* Increased font size */
+}
+
+.value {
+  color: #333;
+  font-size: 14px; /* Reduced font size */
+}

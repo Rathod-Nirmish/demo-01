@@ -1,0 +1,171 @@
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  /* text-align: center; */
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+} */
+
+
+.swiper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.img-display {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/* Change the color of the navigation arrows */
+
+.swiper-button-prev {
+  color: #130101; /* Set arrow color to white */
+  background-color: #ececf1; /* Blue background color */
+  border-radius: 50%; /* Make the background a circle */
+  width: 100px; /* Set width */
+  height: 100px; /* Set height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-next {
+  color: #ffffff; /* Set arrow color to white */
+  background-color: #6833c3; /* Blue background color */
+  border-radius: 50%; /* Make the background a circle */
+  width: 100px; /* Set width */
+  height: 100px; /* Set height */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.swiper-button-prev{
+  margin-left: 200px;
+  /* display: none !important;  */
+  /* Hide the default Swiper buttons */
+}
+.swiper-button-next{
+  margin-right: 200px;
+  /* display: none !important;  */
+  /* Hide the default Swiper buttons */
+}
+
+/* Optional: Add a hover effect */
+/* .swiper-button-next:hover, */
+.swiper-button-prev:hover {
+  background-color: #e0e0e6; /* Slightly darker blue on hover */
+}
+
+/* Change the color of the pagination bullets */
+.swiper-pagination-bullet {
+  background-color: #d5d5dc; /* Blue bullets */
+  opacity: 1; /* Make bullets fully opaque */
+  width: 12px; /* Increase width */
+  height: 12px; /* Increase height */
+}
+
+.swiper-pagination-bullet-active {
+  background-color: #ff00ff; /* Red color for the active bullet */
+}
+
+
+/* .testimonial-container {
+  text-align: center;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+
+  
+} */
+.testimonial-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centers vertically */
+  align-items: center; /* Centers horizontally */
+  text-align: center;
+  padding: 20px;
+  background: #f8f8f8;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  height: 33em; 
+  width: 100%;
+}
+
+.testimonial-container-Testimonials-one{
+  color: #F85E9F;
+  font-weight: 700;
+  margin-bottom: 0.8em;
+  
+}
+
+.testimonial-container-see-what-others{
+  color: #191825;
+  font-weight: 700;
+  font-size: 1.9em;
+  margin-bottom: 1.5em;
+}
+
+.testimonial-avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  margin-bottom: 20px;
+  margin-bottom: 2.5em;
+}
+
+.testimonial-name {
+  /* font-size: 1.5em; */
+  font-weight: bold;
+  color: #cf1c1c;
+}
+
+.testimonial-username {
+  /* font-size: 1em; */
+  color: #555;
+  display: block;
+  margin-top: 5px;
+}
+
+.testimonial-username-orange-text{
+  font-size: 1.5em;
+  color: #FF5722;
+}
+
+.testimonial-username-after-orange-text{
+  font-size: 1.5em;
+  color: #191825BF;
+}
+
+.testimonial-rating {
+  color: #fcb900;
+  font-size: 1.5em;
+  margin: 10px 0;
+}
+
+.testimonial-text {
+  font-size: 1.1em;
+  color: #191825BF;
+  margin-top: 15px;
+  padding: 0em 17em;
+  font-weight: 900;
+}

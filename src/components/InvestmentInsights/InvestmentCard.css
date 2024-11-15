@@ -1,0 +1,59 @@
+.investment-card {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background-color: #fff;
+  }
+  
+  .icon-placeholder {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 10px;
+    margin-right: 10px;
+  }
+  
+  .investment-card-content {
+    flex: 1;
+  }
+  
+  .card-footer {
+    display: flex;
+    align-items: center;
+  }
+  
+  .tag {
+    padding: 5px 10px;
+    border-radius: 20px;
+    margin-right: 10px;
+    font-size: 0.8em;
+  }
+  
+  .tag.popular {
+    background-color: #ccc;
+  }
+  
+  .tag.trending {
+    background-color: #add8e6;
+  }
+  
+  .tag.emerging {
+    background-color: #ffa500;
+  }
+  
+  .tag.recently-launched {
+    background-color: #90ee90;
+  }
+  
+  button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+  

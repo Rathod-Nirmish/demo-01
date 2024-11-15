@@ -1,0 +1,69 @@
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+
+.App {
+    position: relative;
+    overflow-x: clip;
+}
+
+/* 1st section color */
+.App>:nth-child(1) {
+    background: var(--newWhite);
+    position: relative;
+}
+
+.white-gradient {
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(220, 127, 65);
+    filter: blur(150px);
+    border-radius: 100px;
+    margin-left: -166px;
+    margin-top: -60px;
+    z-index: -1;
+}
+
+.white-gradient-strategies {
+    position: absolute;
+    height: 20rem;
+    width: 20rem;
+    background-color: rgb(220, 127, 65);
+    filter: blur(150px);
+    border-radius: 100px;
+    margin-left: -183px;
+    margin-top: -193px;
+    z-index: -1;
+}
+
+.white-background-empty{
+    background-color: rgb(238, 238, 238);
+    height: 56px;
+}
+.white-gradient-contact {
+    position: absolute;
+    height: 505px;
+    width: 500px;
+    background-color: #FF5722;
+    filter: blur(150px);
+    border-radius: 267px;
+    margin-left: -439px;
+    margin-top: 58px;
+}
+.white-gradient-Expertise {
+    position: absolute;
+    height: 505px;
+    width: 500px;
+    background-color: #FACD49;
+    filter: blur(150px);
+    border-radius: 267px;
+    margin-left: 1546px;
+    margin-top: 58px;
+}
+
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities;
+   */

@@ -1,0 +1,49 @@
+/* InvestmentTable.module.css */
+/* @tailwind base;
+@tailwind components;
+@tailwind utilities; */
+
+/* .tabButton {
+    @apply px-8 py-3 rounded-lg border;
+  }
+  
+  .activeTab {
+    @apply bg-gray-200 text-black;
+  }
+  
+  .inactiveTab {
+    @apply bg-white text-black;
+  }
+  
+  .investmentTableItem {
+    @apply flex flex-row gap-2 items-center;
+  }
+  
+  .investmentInfo {
+    @apply flex items-center w-2/4 p-4;
+  }
+  
+  .investmentText {
+    @apply font-bold text-gray-800;
+  }
+  
+  .description {
+    @apply text-gray-500;
+  }
+  
+  .tableColumn {
+    @apply flex flex-col p-2 w-[10%];
+  }
+  
+  .tableHeader {
+    @apply text-gray-500;
+  }
+  
+  .tableData {
+    @apply font-bold text-gray-800;
+  }
+  
+  .returnPercent {
+    @apply font-bold text-green-600;
+  }
+   */

@@ -1,0 +1,58 @@
+/* ProfileCreationForm.css */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(145deg, #6a11cb, #2575fc);
+}
+
+.profile-popup-content {
+  background: linear-gradient(109deg, #f3bbef, #abb1f0);
+  /* padding: 30px; */
+  padding: 48px 52px 75px;
+  border-radius: 12px;
+  width: 442px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+form input {
+  display: block;
+  width: calc(100% - 20px);
+  margin: 12px auto;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+.complete-button {
+  width: 100%;
+  padding: 12px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 26px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.complete-button:hover {
+  background-color: #45a049;
+}
+
+.ProfileCreationForm-textbox-style {
+  width: 100%;
+  padding-left: 21px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 26px;
+  border: 1px solid #ccc;
+  /* margin-bottom: 20px; */
+  font-size: 16px;
+}

@@ -1,0 +1,53 @@
+.outerContainer {
+  padding: 55px 101px;
+}
+
+.heroSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 400px;
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
+  position: relative;
+  overflow: hidden;
+}
+
+.content {
+  text-align: center;
+  color: white;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.highlight {
+  /* color: #f06292;  */
+  background: linear-gradient(to right, #b966e0, #f663ae, #f663ae);
+  -webkit-background-clip: text;
+  color: transparent;
+}
+
+.button {
+  margin-top: 20px;
+  /* padding: 10px 20px; */
+  font-size: 1rem;
+  font-weight: 500;
+  /* color: white;
+    background: linear-gradient(to right, #a1c4fd, #c2e9fb); */
+  /* border: none;
+    border-radius: 5px; */
+  cursor: pointer;
+  background: linear-gradient(90deg, #ff52bf 0%, #07a8ff 100%);
+  color: white;
+  padding: 24px 52px;
+  border: none;
+  border-radius: 53px;
+}
+
+.button:hover {
+  background: linear-gradient(90deg, #07a8ff 0%, #ff52bf 100%);
+}

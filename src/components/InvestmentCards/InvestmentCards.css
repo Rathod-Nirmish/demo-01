@@ -1,0 +1,138 @@
+/* src/InvestmentCards.css */
+
+.ideal-for-getting {
+  font-size: 34px;
+  margin-bottom: 2px;
+  color: #37393f;
+}
+.equitycases-with-low {
+  font-size: 14px;
+  margin-bottom: 2px;
+  color: #37393f;
+}
+.investment-cards {
+  text-align: center;
+  padding: 20px;
+  /* background-color: #f9f3ff; */
+}
+
+.cards-container {
+  gap: 2rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 90px;
+}
+
+.card-investment {
+  background: white;
+  border: 0.8px solid rgba(128, 128, 128, 0.143);
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 10px;
+  width: 250px;
+  transition: all 300ms ease-in;
+}
+
+.card-investment:hover {
+  scale: 1.02;
+  /* box-shadow: var(--shadowBlack); */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.card-header h3 {
+  font-size: 1.2em;
+  margin: 0;
+}
+
+.card-icon {
+  width: 41px;
+  /* height: 30px; */
+}
+
+.card-body .value-change-row {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+}
+
+.card-body .value {
+  font-size: 1em;
+  font-weight: bold;
+  margin: 0;
+}
+
+.card-body .change {
+  font-size: 1em;
+  /* margin: 10px 11px; */
+  margin: 0;
+  margin-left: 9px;
+}
+
+.card-body .change.positive {
+  color: green;
+}
+
+.card-body .change.negative {
+  color: red;
+}
+
+.card-body .volatility {
+  font-size: 0.9em;
+  color: #777;
+  display: flex;
+  /* justify-content: left; */
+}
+
+.volatility {
+  margin: 0;
+  margin-bottom: 4px;
+}
+
+/* .progress-bar-wrapper {
+  background-color: black;
+  border-radius: 5px;
+  overflow: hidden;
+  position: relative;
+  height: 5px;
+  margin-top: 10px;
+} */
+
+.progress-bar-background {
+  background-color: #908e8ec7;
+}
+
+.progress-bar {
+  height: 5px;
+  border-radius: 5px;
+  /* margin-top: 10px; */
+}
+
+.progress-percentage-left {
+  position: relative;
+  left: -75px;
+  top: -2px;
+  font-size: 0.8em;
+  color: black;
+  background-color: white;
+  padding: 0 5px;
+  border-radius: 3px;
+}
+.progress-percentage {
+  position: relative;
+  right: -84px;
+  top: -2px;
+  font-size: 0.8em;
+  color: black;
+  background-color: white;
+  padding: 0 5px;
+  border-radius: 3px;
+}

@@ -1,0 +1,27 @@
+.custom-dot-list-style {
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+  }
+  
+  .custom-dot-list-style li {
+    display: inline-block;
+    margin: 0 5px;
+  }
+  
+  .custom-dot-list-style li button {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: silver; /* Set the dot color to silver */
+    border: none;
+    cursor: pointer;
+  }
+  
+  /* More specific selector to target the active dot button */
+  .custom-dot-list-style li.slick-active button,
+  .custom-dot-list-style li button:focus,
+  .custom-dot-list-style li button:hover {
+    background: black !important; /* Change the active dot color to black */
+  }
+  

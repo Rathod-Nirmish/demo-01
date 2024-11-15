@@ -1,0 +1,196 @@
+.popupOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+  overflow-y: auto; /* Allows the overlay itself to be scrollable */
+}
+
+.popupContent {
+  background-color: white;
+  border-radius: 12px;
+  padding: 20px 0px 20px 20px;
+  /* width: 450px; */
+  width: 37em;
+  max-width: 90%;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  max-height: 80vh; /* Set a max height for the popup */
+}
+
+.brokerListContainer {
+  flex-grow: 1;
+  overflow-y: auto; /* Enables scrolling for the broker list */
+  margin-bottom: 20px; /* Adds space for the buttons */
+  padding-right: 10px; /* Adds padding for better scroll visibility */
+}
+
+/* For WebKit browsers */
+.brokerListContainer::-webkit-scrollbar {
+  width: 8px; /* Make the scrollbar thinner */
+}
+
+.brokerListContainer::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Light background for scrollbar track */
+}
+
+.brokerListContainer::-webkit-scrollbar-thumb {
+  background-color: #6c5ce7; /* Purple thumb (matches your button color) */
+  border-radius: 10px; /* Round the edges of the scrollbar thumb */
+  border: 2px solid #f1f1f1; /* Add space between thumb and track */
+}
+
+.brokerListContainer::-webkit-scrollbar-thumb:hover {
+  background-color: #5a4ad1; /* Darken the thumb on hover */
+}
+
+/* For Firefox (optional) */
+.brokerListContainer {
+  scrollbar-width: thin; /* Makes the scrollbar thin */
+  scrollbar-color: #5D50C6 #f1f1f1; /* Thumb color and track color */
+}
+
+
+.brokerItem {
+  display: flex;
+  align-items: center;
+  padding: 10px 0;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.profileIcon {
+  width: 50px;
+  height: 50px;
+  background-color: #f0f0f0;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.brokerDetails {
+  width: 11em;
+  display: flex;
+  flex-direction: column;
+}
+
+.brokerUserId {
+  width: 11em;
+}
+
+.brokerIconContainer {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.starIcon {
+  font-size: 28px;
+  color: #ada4a4;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.primaryStar {
+  color: #ffd700;
+}
+
+.brokerName {
+  margin: 0;
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.userId {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #757575;
+}
+.userIdBelow {
+  margin: 5px 0 0;
+  font-size: 14px;
+  color: #000000;
+}
+
+.primaryAccount {
+  font-size: 12px;
+  color: #f39c12;
+}
+
+.editButton {
+  background-color: #F3F3F3;
+  border: 1px solid #bab7b7c7;
+  color: #000000;
+  /* border: none; */
+  padding: 9px 22px;
+  border-radius: 26px;
+  cursor: pointer;
+}
+
+/* Container to hold both buttons side by side */
+.buttonContainer {
+  display: flex;
+  justify-content: space-evenly; 
+  /* Ensures the buttons are spaced out */
+  align-items: center; /* Vertically aligns the buttons */
+  margin-top: 20px;
+}
+
+/* Add Broker button styles */
+.addBrokerButton {
+  background-color: #5D50C6;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  /* flex-grow: 1;  */
+  /* Ensures the Add Broker button takes up more space */
+  margin-right: 10px; /* Adds space between the buttons */
+  text-align: center;
+  font-size: 1em;
+
+}
+
+/* Close button styles */
+.closeButton {
+  background-color: #f39c12;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+}
+
+
+/* .addBrokerButton,
+.closeButton {
+  background-color: #6c5ce7;
+  color: white;
+  border: none;
+  padding: 10px;
+  border-radius: 5px;
+  cursor: pointer;
+  align-self: center;
+  width: 100%; 
+  text-align: center;
+}
+
+.addBrokerButton {
+  margin-top: 10px;
+}
+
+.closeButton {
+  background-color: #f39c12;
+  margin-top: 10px;
+} */

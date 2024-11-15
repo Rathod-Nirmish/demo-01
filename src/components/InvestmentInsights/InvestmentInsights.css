@@ -1,0 +1,28 @@
+
+  
+  .insights-list {
+    /* width: 70%; */
+  }
+  
+  .side-banner {
+    width: 25%;
+    background-color: #f0f4f7;
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .banner-content {
+    text-align: center;
+  }
+  
+  .coin-icon-placeholder {
+    width: 100px;
+    height: 100px;
+    background-color: #ffd700;
+    border-radius: 50%;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,89 @@
+.stockTableContainer {
+    /* max-width: 800px; */
+    max-width: 66em;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.stockTable {
+    width: 100%;
+    border-collapse: collapse;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 2em;
+}
+
+.stockTable thead {
+    background-color: #1a202c;
+    color: #ffffff;
+}
+
+.stockTable th,
+.stockTable td {
+    padding: 15px;
+    text-align: left;
+}
+
+.tableTh{
+    font-weight: normal;
+}
+
+.stockTable tbody tr:nth-child(odd) {
+    background-color: #F5F5F5;
+}
+
+.stockTable tbody tr:nth-child(even) {
+    background-color: #FAFAFA;
+}
+
+.stockImage {
+    width: 2.6em;
+    /* height: 20px; */
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.stockName {
+    vertical-align: middle;
+    font-weight: 500;
+    font-size: larger;
+}
+
+.positive {
+    color: #48bb78; /* Green */
+}
+
+.negative {
+    color: #e53e3e; /* Red */
+}
+
+.shares{
+    font-weight: 600;
+}
+
+.avgBuyPrice{
+    font-weight: 500;
+}
+
+.currentPrice{
+    font-weight: 500;
+}
+
+.returns{
+    font-weight: 500;
+}
+
+.closeSubscription {
+    padding: 22px 46px;
+    border: 1px solid #E1E1E1;
+
+    border-radius: 53px;
+    cursor: pointer;
+    /* font-weight: bold; */
+    transition: background-color 0.3s ease;
+    /* font-size: 1.3rem; */
+    background-color: #FFFFFF;
+    color: #FF3636;
+    font-weight: 500;
+    font-size: 1.2em;
+  }

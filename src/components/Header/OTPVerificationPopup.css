@@ -1,0 +1,121 @@
+/* OTPVerificationPopup.css */
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: linear-gradient(145deg, #6a11cb, #2575fc); */
+    z-index: 1000;
+}
+
+.otp-popup-content {
+    background: linear-gradient(109deg, #f3bbef, #abb1f0);
+    padding: 30px;
+    border-radius: 12px;
+    width: 489px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.otp-icon img {
+    width: 108px;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+.otp-sent-number {
+    margin-bottom: 10px;
+    font-size: 14px;
+    color: #37393F;
+}
+
+.otp-container {
+    display: flex;
+    justify-content: center;
+    gap: 0.9em;
+    margin: 20px 0;
+}
+
+.otp-input {
+    width: 1.6em !important; /* Increased width */
+    height: 53px; /* Optionally increased height */
+    font-size: 26px;
+    text-align: center;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    color: #37393F !important;
+
+        
+}
+
+
+
+
+.complete-button {
+    width: 100%;
+    padding: 12px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 26px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.complete-button:hover {
+    background-color: #45a049;
+}
+
+.resend-text {
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+    font-size: 14px;
+    color: #37393F;
+}
+
+.resend-text-bottom{
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+    font-size: 14px;
+    color: #FF5722;
+}
+
+.resend-link.disabled {
+    color: gray;
+    cursor: not-allowed;
+    pointer-events: none; /* Prevent clicks */
+  }
+
+.verify-otp-header{
+    color: #37393F;
+}
+
+.verify-button {
+    background-color: #6246ea; /* Set the background color */
+    color: white; /* Set the text color */
+    border: none; /* Remove the border */
+    border-radius: 12px; /* Add border-radius to create rounded corners */
+    padding: 12px 24px; /* Adjust padding for size */
+    font-size: 16px; /* Set font size */
+    cursor: pointer; /* Change cursor to pointer on hover */
+    width: 100%; /* Make the button full width */
+    max-width: 19em;
+    text-align: center; /* Center the text */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    transition: background-color 0.3s ease; /* Add a smooth transition on hover */
+  }
+  
+  .verify-button:hover {
+    background-color: #5a3ed6; /* Darken the background color on hover */
+  }
+  

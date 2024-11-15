@@ -1,0 +1,42 @@
+.strategyCard {
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    padding: 1em 1em 1em 1.4em;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* width: 150px;  */
+    left: 83%;
+    top: 12em;
+    position: absolute;
+  }
+  
+  .header {
+    font-weight: bold;
+    font-size: 1.3rem;
+    color: #5A7184;
+    margin-bottom: 10px;
+
+    display: inline-block; /* Required for transform to work on inline elements */
+    transform: scaleY(1.2); /* Adjust this value to stretch the text vertically */
+  }
+  
+  .details {
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+  }
+  
+  .number {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #3d4a5d;
+  }
+  
+  .graphLine {
+    margin-left: 2em;
+  }
+  
+  .graphLanding{
+    margin-bottom: -1em;
+  }
